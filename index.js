@@ -1,9 +1,12 @@
 const express = require('express');
 const app = express();
 require('dotenv').config();
-const PORT - process.env.PORT || 8080;
+const port = process.env.PORT || 3333;
 
 app.get('/', (req, res) => {
-  console.log('root route');
-))};
-  
+  res.send('Sup World?!')
+});
+
+app.listen(port, () => {
+  console.log(`Ivin server is listening on port ${port}`)
+})

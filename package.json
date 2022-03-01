@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kgrayallday/ivin-server-js#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3"
   }
 }
